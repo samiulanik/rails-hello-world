@@ -3,7 +3,7 @@
 # spec/requests/todos_spec.rb
 require 'rails_helper'
 
-describe 'Todos API', type: :request do # rubocop:disable Metrics/ClassLength
+describe 'Todos API', type: :request do
   # initialize test data
   let!(:todos) { create_list(:todo, 10) }
   let(:todo_id) { todos.first.id }
