@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Hello World Rails app developed following this [tutorial](https://www.digitalocean.com/community/tutorials/build-a-restful-json-api-with-rails-5-part-one).
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Github Actions are enabled using this [idea](https://boringrails.com/articles/building-a-rails-ci-pipeline-with-github-actions/).
