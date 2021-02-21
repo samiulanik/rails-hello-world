@@ -34,13 +34,12 @@ class TodosController < ApplicationController
   end
 
   private
+    def todo_params
+      # whitelist params
+      params.permit(:title, :created_by)
+    end
 
-  def todo_params
-    # whitelist params
-    params.permit(:title, :created_by)
-  end
-
-  def set_todo
-    @todo = Todo.find(params[:id])
-  end
+    def set_todo
+      @todo = Todo.find(params[:id])
+    end
 end

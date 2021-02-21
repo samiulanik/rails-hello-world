@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # spec/models/item_spec.rb
-require 'rails_helper'
+require "rails_helper"
 
 # Test suite for the Item model
 describe Item, type: :model do
